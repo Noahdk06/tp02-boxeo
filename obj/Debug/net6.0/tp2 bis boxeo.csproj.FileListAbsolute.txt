@@ -1,0 +1,15 @@
+Z:\tp2 bis boxeo\bin\Debug\net6.0\tp2 bis boxeo.exe
+Z:\tp2 bis boxeo\bin\Debug\net6.0\tp2 bis boxeo.deps.json
+Z:\tp2 bis boxeo\bin\Debug\net6.0\tp2 bis boxeo.runtimeconfig.json
+Z:\tp2 bis boxeo\bin\Debug\net6.0\tp2 bis boxeo.dll
+Z:\tp2 bis boxeo\bin\Debug\net6.0\tp2 bis boxeo.pdb
+Z:\tp2 bis boxeo\obj\Debug\net6.0\tp2 bis boxeo.csproj.AssemblyReference.cache
+Z:\tp2 bis boxeo\obj\Debug\net6.0\tp2 bis boxeo.GeneratedMSBuildEditorConfig.editorconfig
+Z:\tp2 bis boxeo\obj\Debug\net6.0\tp2 bis boxeo.AssemblyInfoInputs.cache
+Z:\tp2 bis boxeo\obj\Debug\net6.0\tp2 bis boxeo.AssemblyInfo.cs
+Z:\tp2 bis boxeo\obj\Debug\net6.0\tp2 bis boxeo.csproj.CoreCompileInputs.cache
+Z:\tp2 bis boxeo\obj\Debug\net6.0\tp2 bis boxeo.dll
+Z:\tp2 bis boxeo\obj\Debug\net6.0\refint\tp2 bis boxeo.dll
+Z:\tp2 bis boxeo\obj\Debug\net6.0\tp2 bis boxeo.pdb
+Z:\tp2 bis boxeo\obj\Debug\net6.0\tp2 bis boxeo.genruntimeconfig.cache
+Z:\tp2 bis boxeo\obj\Debug\net6.0\ref\tp2 bis boxeo.dll

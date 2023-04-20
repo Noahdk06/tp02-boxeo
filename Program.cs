@@ -1,11 +1,11 @@
 ﻿
-
+           
    
 
     
-       double skill1=0;
-       double skill2=0;
-        
+  
+        Boxeador boxeador1= null;
+        Boxeador boxeador2 =null;
             
            int opcion = menu();
             while (opcion != 4)
@@ -15,16 +15,20 @@
                 {
 
                     case 1:
-                          Boxeador boxeador1 =  ingresarBoxeador();
-                           skill1= boxeador1.obtenerSkill(boxeador1.VelPiernas,boxeador1.PotGolpes);
+                           boxeador1 =  ingresarBoxeador();
+                           
                         break;
                     case 2:
-                          Boxeador boxeador2 =  ingresarBoxeador();
-                           skill2= boxeador2.obtenerSkill(boxeador2.VelPiernas,boxeador2.PotGolpes);
+                          boxeador2 =  ingresarBoxeador();
+                       
                         break;
                     case 3:
-                         
-                         string finP = pelea(boxeador1,boxeador2, skill1, skill2);
+                       
+                         if (boxeador1 !=null && boxeador2 != null)
+                         {
+                            pelea(boxeador1,boxeador2);
+                         }
+                          
                         break;
                     
                 }
@@ -81,10 +85,12 @@
             }
 
 
-         string pelea(Boxeador box1, Boxeador box2, double skl1,double skl2)
+         void pelea(Boxeador box1, Boxeador box2)
          {
+           double skl1= box1.obtenerSkill();
+           double skl2= box2.obtenerSkill();
             string mensaje="";
-            string mensajeGanador="";
+           
             Boxeador boxeadorGanador;
           System.Console.WriteLine("el boxeador1 tiene " + skl1 + " y se enfrentara al boxeador numero 2, que tiene " + skl2 );
            
@@ -98,7 +104,7 @@
            }
            if(skl1 -skl2 >= 30 || skl1 - skl2 >= -30)
            {
-             mensaje="se gano por ko";
+             mensaje=", se gano por ko";
            }
            if(skl1 - skl2 >= 10 && skl1 - skl2 < 30 || skl1 - skl2 >= -10 && skl1 - skl2 < -30){
             mensaje = "Por puntos en fallo unanime";
@@ -106,10 +112,10 @@
            if(skl1 - skl2 <= 10  || skl1 - skl2 <= -10){
             mensaje = "Por puntos en fallo dividido";
            }
-
-           mensajeGanador= "el ganador es el " + boxeadorGanador + mensaje;
-           
-         return mensajeGanador;
+            Console.WriteLine("el ganador es  " + boxeadorGanador.Nombre + mensaje);
+            
+        
+        
          }
 
 

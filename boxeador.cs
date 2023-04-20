@@ -27,7 +27,7 @@ using System;
         }
         
 
-        public double obtenerSkill(int velocidad, int potencia)
+        public double obtenerSkill()
         {
            double skill=0;
            int min = 1;
@@ -36,7 +36,7 @@ using System;
         Random azar = new Random();
         int num =azar.Next(min, max + 1);
         
-        skill= (velocidad*0.6)+(potencia*0.8)+num;
+        skill= (VelPiernas*0.6)+(PotGolpes*0.8)+num;
 
 
         return skill;
